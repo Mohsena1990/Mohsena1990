@@ -8,4 +8,5 @@ I am a **Python Programmer** specializing in Machine Learning and Deep Learning,
 
 
 ## 📊 My GitHub Stats
-[![Top Langs](https://vercel.app)](https://github.com)
+[![Top Langs](https://vercel.app)](https://github.com/anuraghazra/github-readme-stats)
+
