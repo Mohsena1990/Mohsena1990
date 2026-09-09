@@ -18,7 +18,7 @@ try:
         name = f"**[{repo['name']}]({repo['html_url']})**"
         desc = repo["description"] if repo["description"] else "No description provided."
         
-        # FIX: Extracting the first element index [0] to keep it as a clean text string
+        # FIX: Added [0] to extract the pure string 'YYYY-MM-DD' cleanly
         start_date = repo["created_at"].split("T")[0]
         
         table_rows.append(f"| {name} | {desc} | {start_date} |")
