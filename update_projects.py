@@ -3,7 +3,6 @@ import urllib.request
 import re
 
 USER = "Mohsena1990"
-# FIX: Adjusted to query correct API endpoint securely
 API_URL = f"https://github.com{USER}/repos?sort=updated&per_page=10"
 
 try:
@@ -19,7 +18,7 @@ try:
         name = f"**[{repo['name']}]({repo['html_url']})**"
         desc = repo["description"] if repo["description"] else "No description provided."
         
-        # Split out timestamp (e.g., "2023-05-12T14:20:11Z" -> "2023-05-12")
+        # FIX: Extracting the first element index [0] to keep it as a clean text string
         start_date = repo["created_at"].split("T")[0]
         
         table_rows.append(f"| {name} | {desc} | {start_date} |")
