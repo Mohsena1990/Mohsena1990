@@ -20,7 +20,6 @@ I am a **PhD Researcher** specializing in Machine Learning and Deep Learning, wi
 | :--- | :--- | :--- |
 <!-- END_PROJECTS -->
 
-
 ---
 
 ### 📬 Connect With Me
