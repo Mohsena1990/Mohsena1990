@@ -1,8 +1,8 @@
 name: Update Profile README Projects
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs automatically every midnight
-  workflow_dispatch: # Allows you to run it manually anytime
+    - cron: '0 0 * * *' 
+  workflow_dispatch: 
 
 jobs:
   update-readme:
@@ -24,7 +24,8 @@ jobs:
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@://github.com"
+          # FIX: Fixed invalid email structure to allow authorized commit pushing
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           if ! git diff-index --quiet HEAD; then
             git commit -m "chore: auto-update repository tracking matrix [skip ci]"
