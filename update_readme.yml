@@ -1,0 +1,34 @@
+name: Update Profile README Projects
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs automatically every midnight
+  workflow_dispatch: # Allows you to run it manually anytime
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Update Script
+        run: python update_projects.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
+          git add README.md
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore: auto-update repository tracking matrix [skip ci]"
+            git push
+          else
+            echo "No changes detected in repository metadata."
+          fi
