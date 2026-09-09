@@ -19,6 +19,8 @@ jobs:
           python-version: '3.x'
 
       - name: Run Update Script
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: python update_projects.py
 
       - name: Commit and Push Changes

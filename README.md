@@ -35,8 +35,8 @@
 <!-- START_PROJECTS -->
 | 📁 Repository | 📝 Description | 📅 Started On |
 | :--- | :--- | :--- |
+| **[Geospatial_classification_of_LIHC](https://github.com/Mohsena1990/Geospatial_classification_of_LIHC)** | Geospatially enriched classification of Low-Income High-Cost energy > poverty: Integrating househol… | 2026-08-05 |
 | **[quantile_regression_lihc](https://github.com/Mohsena1990/quantile_regression_lihc)** | No description provided. | 2026-04-04 |
-| **[Geospatial_classification_of_LIHC](https://github.com/Mohsena1990/Geospatial_classification_of_LIHC)** | Geospatially enriched classification of Low-Income High-Cost energy > poverty: Integrating household surveys, climate, energy prices and > satellite segmentation in Bulgaria and Italy | 2026-08-05 |
 | **[Enhanced-HistSegNet](https://github.com/Mohsena1990/Enhanced-HistSegNet)** | The code related to HistSegNet approach was submitted to IEEE Geoscience and Remote Sensing Letters. | 2024-09-23 |
 <!-- END_PROJECTS -->
 
