@@ -3,7 +3,7 @@ import urllib.request
 import re
 
 USER = "Mohsena1990"
-API_URL = f"https://github.com{USER}/repos?sort=updated&per_page=10"
+API_URL = f"https://api.github.com/users/{USER}/repos?sort=updated&per_page=10"
 
 try:
     req = urllib.request.Request(API_URL, headers={"User-Agent": "Python-Script"})
@@ -12,9 +12,9 @@ try:
     
     table_rows = ["| 📁 Repository | 📝 Description | 📅 Started On |", "| :--- | :--- | :--- |"]
     for repo in repos:
-        if repo["name"] == USER:  
+        if repo["name"] == USER or repo.get("fork"):
             continue
-            
+
         name = f"**[{repo['name']}]({repo['html_url']})**"
         desc = repo["description"] if repo["description"] else "No description provided."
         
