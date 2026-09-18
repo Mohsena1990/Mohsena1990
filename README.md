@@ -36,6 +36,7 @@
 | 📁 Repository | 📝 Description | 📅 Started On |
 | :--- | :--- | :--- |
 | **[Geospatial_classification_of_LIHC](https://github.com/Mohsena1990/Geospatial_classification_of_LIHC)** | Geospatially enriched classification of Low-Income High-Cost energy > poverty: Integrating househol… | 2026-08-05 |
+| **[co2_emission_prediction](https://github.com/Mohsena1990/co2_emission_prediction)** | No description provided. | 2026-07-29 |
 | **[quantile_regression_lihc](https://github.com/Mohsena1990/quantile_regression_lihc)** | No description provided. | 2026-04-04 |
 | **[Decision-Oriented-Forecasting-of-Groundwater-Usability-for-Irrigation-and-Livestock-Management](https://github.com/Mohsena1990/Decision-Oriented-Forecasting-of-Groundwater-Usability-for-Irrigation-and-Livestock-Management)** | We propose a Seasonal Autoregressive Integrated Neural Network (SARINN) to capture seasonal pattern… | 2025-09-02 |
 | **[Enhanced-HistSegNet](https://github.com/Mohsena1990/Enhanced-HistSegNet)** | The code related to HistSegNet approach was submitted to IEEE Geoscience and Remote Sensing Letters. | 2024-09-23 |
