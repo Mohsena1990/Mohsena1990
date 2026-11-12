@@ -35,6 +35,7 @@
 <!-- START_PROJECTS -->
 | 📁 Repository | 📝 Description | 📅 Started On |
 | :--- | :--- | :--- |
+| **[Mohsena1990.github.io](https://github.com/Mohsena1990/Mohsena1990.github.io)** | No description provided. | 2026-11-12 |
 | **[Geospatial_classification_of_LIHC](https://github.com/Mohsena1990/Geospatial_classification_of_LIHC)** | Geospatially enriched classification of Low-Income High-Cost energy > poverty: Integrating househol… | 2026-08-05 |
 | **[co2_emission_prediction](https://github.com/Mohsena1990/co2_emission_prediction)** | No description provided. | 2026-07-29 |
 | **[quantile_regression_lihc](https://github.com/Mohsena1990/quantile_regression_lihc)** | No description provided. | 2026-04-04 |
